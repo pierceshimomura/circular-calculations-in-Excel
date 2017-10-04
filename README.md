@@ -9,7 +9,6 @@ This function allows you to select a RANGE of cells with 0-360 degree values and
 ---
 =circ_stdev(rng As Range)
 This function allows you to select a RANGE of cells with 0-360 degree values and it reports back the stdev of average angle. You select a range just like you can select a range with the common Excel function =stdev(rng).  This function reports error value if input values fall outside of the 0-360 range. 
-
 ---
 =absolute_angle(x1, y1, x2, y2) 
 This function returns an angle in radians given vector from point (x1, y1) to point (x2, y2). A value of 0 radians is reported for vectors that point straight right. Values increase as you go counterclockwise around a circle until you get to pointing right again. Because of this standard math orientation, you might need to consider how coordinates are in your system. e.g. maybe you want zero degrees to point upward rather than right.
